@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test artifacts and coverage
+*.test
+*.out
+coverage.html
+profile.pprof
+
+# SearchForge data directories (WAL, Segments, Snapshots)
+data/
+*.wal
+*.segment
+*.lock
+
+# Go workspace
+go.work
+go.work.sum
+
+# OS & Editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
