@@ -21,8 +21,8 @@ var DefaultEnglishStopwords = map[string]struct{}{
 	"no": {}, "nor": {}, "not": {},
 	"of": {}, "off": {}, "on": {}, "once": {}, "only": {}, "or": {}, "other": {}, "ought": {},
 	"our": {}, "ours": {}, "ourselves": {}, "out": {}, "over": {}, "own": {},
-	"same": {}, "she": {}, "should": {}, "so": {}, "some": {}, "such": {},
-	"than": {}, "that": {}, "the": {}, "their": {}, "theirs": {}, "them": {}, "themselves": {},
+	"s": {}, "same": {}, "she": {}, "should": {}, "so": {}, "some": {}, "such": {},
+	"t": {}, "than": {}, "that": {}, "the": {}, "their": {}, "theirs": {}, "them": {}, "themselves": {},
 	"then": {}, "there": {}, "these": {}, "they": {}, "this": {}, "those": {}, "through": {},
 	"to": {}, "too": {},
 	"under": {}, "until": {}, "up": {},
@@ -137,4 +137,3 @@ func (p *TokenFilterPipeline) Filter(tokens []Token) ([]Token, error) {
 	}
 	return current, nil
 }
-
